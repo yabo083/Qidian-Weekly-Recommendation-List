@@ -1,0 +1,29 @@
+{
+  "name": "qidian-ranking-crawler",
+  "version": "1.0.0",
+  "description": "起点周推榜单分析工具",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "crawler": "node crawler.js",
+    "manual": "node manual-crawl.js",
+    "axios": "node axios-crawler.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^119.0.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "puppeteer": "^21.0.0",
+    "puppeteer-core": "^21.11.0"
+  },
+  "keywords": [
+    "qidian",
+    "crawler",
+    "ranking"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT"
+}
